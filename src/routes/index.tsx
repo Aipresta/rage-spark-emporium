@@ -76,6 +76,9 @@ const products = [
   },
 ];
 
+const staticProduct = products.find((p) => p.id === "static")!;
+const midnightProduct = products.find((p) => p.id === "midnight")!;
+
 function Index() {
   return (
     <CartProvider>
