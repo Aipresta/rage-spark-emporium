@@ -403,7 +403,7 @@ function Storefront() {
                 <p className="font-body text-xl font-semibold">$6.50</p>
               </div>
               <button
-                onClick={() => handleAdd(products[0])}
+                onClick={() => handleAdd(staticProduct)}
                 className="relative mt-4 w-full rounded-xl bg-volt py-3 text-sm font-semibold text-void ring-1 ring-volt transition-transform hover:scale-[1.02]"
               >
                 {justAdded === "static" ? "Added to cart" : "Add to cart"}
@@ -488,7 +488,7 @@ function Storefront() {
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 <button
-                  onClick={() => handleAdd(products[4])}
+                  onClick={() => handleAdd(midnightProduct)}
                   className="inline-flex items-center rounded-xl bg-volt py-3 pr-4 pl-3 text-sm font-semibold text-void ring-1 ring-volt transition-transform hover:scale-[1.03]"
                 >
                   Reserve a case
